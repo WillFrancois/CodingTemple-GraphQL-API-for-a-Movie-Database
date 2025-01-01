@@ -20,16 +20,16 @@ The GraphiQL dashboard is available from your web browser. Access the port your 
 
 ### Queries:
 
-movies: Gives all movies available in the database.
-genres: Gives all genres available in the database.
-getMoviesByGenre: A function that takes a genreId as input and produces all movies with the same genre.
-getGenreByMovie: A function that takes a movieId as input and produces the related genre.
+- movies: Gives all movies available in the database.
+- genres: Gives all genres available in the database.
+- getMoviesByGenre: A function that takes a genreId as input and produces all movies with the same genre.
+- getGenreByMovie: A function that takes a movieId as input and produces the related genre.
 
 ### Mutations:
 
-createMovies: Creates a movie and inserts it into the database.
-createGenre: Creates a genre and inserts it into the database.
-updateMovies: Updates a movie in the database from the given information.
-updateGenre: Updates a genre in the database from the given information.
-deleteMovies: Deletes a movie in the database from a given id number.
-deleteGenre: Deletes a genre in the database from a given id number.
+- createMovies: Creates a movie and inserts it into the database.
+- createGenre: Creates a genre and inserts it into the database.
+- updateMovies: Updates a movie in the database from the given information.
+- updateGenre: Updates a genre in the database from the given information.
+- deleteMovies: Deletes a movie in the database from a given id number.
+- deleteGenre: Deletes a genre in the database from a given id number.
